@@ -1,0 +1,27 @@
+/**
+ * 
+ */
+package com.saipractice.usersservice.entity;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+
+/**
+ * @author Saikrishna Vinjamuri
+ *
+ */
+@Entity
+public class User {
+
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private Long userId;
+	private String userFirstName;
+	private String userLastName;
+	private String DepartmentId;
+	
+	
+	
+	
+	
+}

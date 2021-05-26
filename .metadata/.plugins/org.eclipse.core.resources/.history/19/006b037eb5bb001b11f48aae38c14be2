@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.saipractice.usersservice.repository;
+
+/**
+ * @author Saikrishna Vinjamuri
+ *
+ */
+public class UserRepository {
+
+}

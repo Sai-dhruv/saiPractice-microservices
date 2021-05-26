@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.saipractice.usersservice.controller;
+
+/**
+ * @author Saikrishna Vinjamuri
+ *
+ */
+public class UserController {
+
+}

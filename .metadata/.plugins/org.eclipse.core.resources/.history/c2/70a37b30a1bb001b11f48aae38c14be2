@@ -1,0 +1,15 @@
+package com.saipractice.departmentservice.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+/**
+ * @author Saikrishna Vinjamuri
+ *
+ */
+
+@RestController
+public class DepatmentController {
+
+	
+
+}

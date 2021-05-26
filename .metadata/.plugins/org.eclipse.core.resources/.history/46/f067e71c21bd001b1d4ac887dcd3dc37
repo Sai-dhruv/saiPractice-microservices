@@ -1,0 +1,2 @@
+server.address=8005
+spring.application.name=HYSTRIX-SERVICE

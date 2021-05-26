@@ -1,0 +1,24 @@
+/**
+ * 
+ */
+package com.saipractice.departmentservice.repository;
+
+import java.util.Optional;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.saipractice.departmentservice.entity.Department;
+
+/**
+ * @author Saikrishna Vinjamuri
+ *
+ */
+@Repository
+public interface DepartmentRepository extends JpaRepository<Department,Long> {
+
+	Optional<Department> finBbyDepartmentId();
+
+	Department finBbyDepartmentId(Long id);
+
+}

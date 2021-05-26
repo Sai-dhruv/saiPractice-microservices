@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.saipractice.departmentservice.entity;
+
+/**
+ * @author Saikrishna Vinjamuri
+ *
+ */
+public class Department {
+
+}

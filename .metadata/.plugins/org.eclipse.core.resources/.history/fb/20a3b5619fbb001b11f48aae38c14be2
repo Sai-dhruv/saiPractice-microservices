@@ -1,0 +1,14 @@
+/**
+ * 
+ */
+package com.saipractice.departmentservice.repository;
+
+
+/**
+ * @author Saikrishna Vinjamuri
+ *
+ */
+@Repository
+public class DepartmentRepository extends JpaRepositoryExtension {
+
+}

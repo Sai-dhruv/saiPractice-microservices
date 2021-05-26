@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package com.saipractice.cloudgateway.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+/**
+ * @author Saikrishna Vinjamuri
+ *
+ */
+@RestController
+public class FallBackMethodController {
+	
+	
+	public String userServiceFallBackMethod() {
+		
+		return "User service is taking langer time....!";
+	}
+	
+
+}

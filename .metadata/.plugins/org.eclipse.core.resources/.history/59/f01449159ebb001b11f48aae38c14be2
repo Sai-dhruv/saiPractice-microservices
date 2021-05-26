@@ -1,0 +1,13 @@
+/**
+ * 
+ */
+package com.saipractice.departmentservice.repository;
+
+/**
+ * @author Saikrishna Vinjamuri
+ *
+ */
+@R
+public interface DepartmentRepository ex {
+
+}

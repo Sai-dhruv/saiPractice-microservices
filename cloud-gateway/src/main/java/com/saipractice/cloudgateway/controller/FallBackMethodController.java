@@ -1,0 +1,29 @@
+/**
+ * 
+ */
+package com.saipractice.cloudgateway.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+/**
+ * @author Saikrishna Vinjamuri
+ *
+ */
+@RestController
+public class FallBackMethodController {
+	
+	
+	@GetMapping("/userServiceFallBack")
+	public String userServiceFallBackMethod() {
+		
+		return "User service is taking langer time....!";
+	}
+	
+	@GetMapping("/deptServiceFallBack")
+	public String departmentServiceFallBackMethod() {
+		
+		return "Department service is taking langer time....!";
+	}
+
+}

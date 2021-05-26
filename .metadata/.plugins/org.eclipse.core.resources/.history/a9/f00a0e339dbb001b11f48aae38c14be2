@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package com.saipractice.departmentservice.entity;
+
+import javax.persistence.Entity;
+
+/**
+ * @author Saikrishna Vinjamuri
+ *
+ */
+@Entity
+public class Department {
+	
+	private Long departmentId;
+	private String departmentName;
+	private String departmrntAddress;
+	private String departrmrntCode;
+
+}

@@ -1,0 +1,47 @@
+/**
+ * 
+ */
+package com.saipractice.departmentservice.service;
+
+import java.util.Optional;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.saipractice.departmentservice.entity.Department;
+import com.saipractice.departmentservice.repository.DepartmentRepository;
+
+import lombok.extern.slf4j.Slf4j;
+
+/**
+ * @author Saikrishna Vinjamuri
+ *
+ */
+@Service
+@Slf4j
+public class DepartmentService {
+	 Logger logger = LoggerFactory.getLogger(DepartmentService.class);
+	@Autowired
+	private DepartmentRepository repository;
+
+	public Department saveDepartment(Department department) {
+		
+		Department d = repository.save(department);
+		
+		logger.info("In service department**************************"+d.getClass().getDeclaredFields());
+		return d;
+		
+	}
+
+	public Department findByDepartmentId(Long id) {
+		return  repository.findByDepartmentId(id);
+		
+	}
+
+	
+
+	
+
+}

@@ -1,0 +1,17 @@
+/**
+ * 
+ */
+package com.saipractice.departmentservice.entity;
+
+/**
+ * @author Saikrishna Vinjamuri
+ *
+ */
+public class Department {
+	
+	private Long departmentId;
+	private String departmentName;
+	private String departmrntAddress;
+	private String departrmrntCode;
+
+}

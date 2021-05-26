@@ -1,0 +1,32 @@
+package com.saipractice.departmentservice.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.saipractice.departmentservice.entity.Department;
+import com.saipractice.departmentservice.service.DepartmentService;
+
+/**
+ * @author Saikrishna Vinjamuri
+ *
+ */
+
+@RestController
+@RequestMapping("/departments")
+public class DepatmentController {
+	
+	@Autowired
+	private DepartmentService departmentService;
+	
+	@PostMapping("/")
+	public Department saveDepartment(Department department) {
+		
+		return departmentService.saveDepartment(department);
+		
+	}
+
+	
+
+}

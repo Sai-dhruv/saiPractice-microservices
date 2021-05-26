@@ -1,0 +1,15 @@
+/**
+ * 
+ */
+package com.saipractice.departmentservice.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+/**
+ * @author Saikrishna Vinjamuri
+ *
+ */
+@Repository
+public interface DepartmentRepository extends JpaRepository {
+
+}

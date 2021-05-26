@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.saipractice.cloudgateway.controller;
+
+/**
+ * @author Saikrishna Vinjamuri
+ *
+ */
+public class FallBackMethodController {
+
+}

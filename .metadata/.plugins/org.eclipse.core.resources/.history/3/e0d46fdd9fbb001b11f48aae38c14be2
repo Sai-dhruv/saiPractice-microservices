@@ -1,0 +1,16 @@
+/**
+ * 
+ */
+package com.saipractice.departmentservice.repository;
+
+import org.springframework.data.jpa.repository.cdi.JpaRepositoryExtension;
+import org.springframework.stereotype.Repository;
+
+/**
+ * @author Saikrishna Vinjamuri
+ *
+ */
+@Repository
+public interface DepartmentRepository extends JpaRepositoryExtension<Dep> {
+
+}

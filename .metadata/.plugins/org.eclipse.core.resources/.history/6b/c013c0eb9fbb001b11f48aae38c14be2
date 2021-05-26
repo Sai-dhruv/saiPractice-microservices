@@ -1,0 +1,15 @@
+/**
+ * 
+ */
+package com.saipractice.departmentservice.repository;
+
+import org.springframework.stereotype.Repository;
+
+/**
+ * @author Saikrishna Vinjamuri
+ *
+ */
+@Repository
+public interface DepartmentRepository extends JpaReposit {
+
+}

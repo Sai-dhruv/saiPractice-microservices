@@ -1,0 +1,40 @@
+/**
+ * 
+ */
+package com.saipractice.usersservice.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
+
+import com.saipractice.usersservice.entity.User;
+import com.saipractice.usersservice.repository.UserRepository;
+
+/**
+ * @author Saikrishna Vinjamuri
+ *
+ */
+
+@Service
+public class UserService {
+
+	@Autowired
+	private UserRepository repository;
+	
+	@Autowired
+	RestTemplate RestTemplate;
+
+	public User saveUser(User user) {
+		return repository.save(user);
+	}
+
+	public User findByUserId(Long id) {
+		User user =  repository.findByUserId(id);
+		
+		
+		
+		
+	}
+	
+	
+}

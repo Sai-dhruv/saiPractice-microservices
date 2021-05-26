@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="cloud-gateway"/>
+<aop-project name="department-service"/>
+<aop-project name="users-service"/>
+<aop-project name="service-registry"/>
+</aop-reference-model>
